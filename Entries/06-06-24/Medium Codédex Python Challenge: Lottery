@@ -1,0 +1,12 @@
+#Are you feeling lucky? Let's replicate a small lottery that decides a winner based on random numbers. This challenge will use the random module.
+
+import random
+my_numbers = []
+winning_numbers = []
+for i in range(0,5):
+  my_numbers.append(random.randint(1,69))
+  winning_numbers.append(random.randint(1,69))
+my_numbers.append(random.randint(1,26))
+winning_numbers.append(random.randint(1,26))
+print(my_numbers)
+print(winning_numbers)
