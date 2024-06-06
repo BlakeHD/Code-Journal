@@ -6,10 +6,8 @@ Welcome to my coding journal! My name is Blake, and here I'll document my journe
 
 - [About Me](#about-me)
 - [Learning Resources](#learning-resources)
-- [Journal Entries](#journal-entries)
 - [Goals](#Goals)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## About Me
 
@@ -27,12 +25,6 @@ Here are some of the reasources I am currently using:
 - [Other resource 1]
 - [Other resource 2]
 
-## Journal Entries
-[**Date: MM/DD/YYYY**]
- 
-  JUNE
-- [**06/05/2024**]
- 
 
 ## Contributing
 
