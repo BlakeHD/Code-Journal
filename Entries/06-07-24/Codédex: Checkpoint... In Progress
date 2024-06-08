@@ -1,0 +1,28 @@
+import time
+import random
+import os
+rows, columns = os.get_terminal_size() #gets the size of the terminal window
+print('---'*columns) 
+print("Welcome to: The Game of Life".center(columns)) 
+print('---'*columns) 
+print("You wake up in a small dark room surrounded by water")
+time.sleep(3) #Pauses output of next print statement for 3 seconds
+print("""*TAP*
+*TAP*
+*TAP*""")
+time.sleep(3)
+print('Voice: "Hey there I can\'t wait to meet you"')
+print('What should do you do?')
+time.sleep(2)
+print("""1: Kick
+2: Throw some punches into the darkness
+3: Do nothing""")
+womb_choice = 0
+while womb_choice not in [1, 2, 3]:
+ womb_choice = int(input('Make your choice: '))
+if womb_choice == 1:
+    print("Voice: Awww they kicked")
+elif womb_choice == 2:
+    print("Voice: Wow, you must be excited to meet us too")
+else:
+    print('Voice: Huh,They must be sleeping') 
