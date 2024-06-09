@@ -1,0 +1,70 @@
+import time
+import random
+import os
+
+def print_slow(text, delay=0.05): #delays the speed text is printed at. Cool!
+    for char in text:  
+        print(char, end='', flush=True)
+        time.sleep(delay)
+    print() 
+
+rows, columns = os.get_terminal_size() #gets the size of the terminal window
+print('---'*columns) 
+print("Welcome to: The Game of Life") 
+print('---'*columns) 
+
+print_slow("You wake up in a small and dark room surrounded by water")
+time.sleep(3) #Pauses output of next print statement for 3 seconds
+print("""
+*TAP*
+*TAP*
+*TAP*""")
+time.sleep(3)
+print_slow('Voice: "Hey there I can\'t wait to meet you"')
+print_slow('What should do you do?')
+time.sleep(2)
+
+choices = ["Kick", "Throw some punches", "Do nothing"]
+outcomes = ["Voice: Awww they kicked", "Voice: Wow, you must be excited to meet us too", "Voice: Huh,They must be sleeping"]
+
+womb_choice = 0 
+
+for i, choices in enumerate(choices, start=1):  #enumerate prints out each choice  with its coresponding number (1,2,3)
+    print_slow(f"{i}: {choices}") # f-string allows you to use variables inside a string
+
+time.sleep(2)
+while womb_choice not in [1, 2, 3]:
+ womb_choice = int(input('Make your choice: '))
+if womb_choice == 1:
+    print_slow("Voice: Awww they kicked")
+elif womb_choice == 2:
+    print_slow("Voice: Wow, you must be excited to meet us too")
+else:
+    print_slow('Voice: Huh,They must be sleeping') 
+    
+print('---'*columns)
+print_slow('Two Months Later...')
+print('---'*columns)
+
+print_slow("""You see a blinding light a the end of a tunnel...          
+As you enter the light you enter the hands of a figure in blue
+Figure: Good news ma'am, your now a mom to a beautiful baby.....""")
+
+gender = ' '
+
+while gender not in ['boy', 'Boy', 'Girl', 'girl']:
+    gender = (input('Would you like to play as a boy or a girl: '))
+if gender == 'boy' or gender == 'Boy':
+ print_slow('Good news ma\'am, your now a mom to a beautiful baby boy!')
+else:
+ print_slow('Good news ma\'am, your now a mom to a beautiful baby girl!')
+
+print_slow('Mom: I think ill name you...')
+name = input('What is your name: ')
+print_slow(f"Mom: I think ill name you {name}.")
+
+print('---'*columns)
+print_slow('Four Years Later...'.center(columns))
+print('---'*columns)
+
+print_slow(f"Mom: {name}, it's time for your first day of school!")
