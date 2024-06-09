@@ -1,6 +1,6 @@
 # Code-Journal
 
-Welcome to my coding journal! My name is Blake, and here I'll document my journey of learning to code! Allthough this isn't intended for public use, I am leaving this public as motivation for me and inspiration for any beginner to coding. If I can do this you can too! This repository serves as a log of my progress, notes, and reflections. 
+Welcome to my coding journal! My name is Blake, and here I'll document my journey of learning to code! Allthough this isn't intended for public use, I am leaving this public as motivation for me and inspiration for any beginner to coding. **If I can do this you can too!** This repository serves as a log of my progress, notes, and reflections. 
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ This repo was started on Wensday June 5th 2024, and my goal is to code something
 Here are some of the reasources I am currently using:
 
 - [codedex.io](https://codedex.io)
-- [Other resource 1]
+- [W3 Schools - Python](https://www.w3schools.com/python/default.asp)
 - [Other resource 2]
 
 
