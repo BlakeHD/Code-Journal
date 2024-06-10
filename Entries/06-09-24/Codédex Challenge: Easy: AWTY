@@ -1,0 +1,6 @@
+#First, ask the user “Are we there yet?” using the input() function and store it in an answer variable.
+#Then, use a while loop that asks the user “Are we there yet?” over and over again until they respond with a “Yes”.
+
+answer = ' '
+while answer != 'Yes':
+  answer = input('Are we there yet?') 
