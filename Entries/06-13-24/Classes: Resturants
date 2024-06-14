@@ -1,0 +1,5 @@
+class Restaurant:
+  name = 'What the Pho'
+  category = 'Vietnamese Cuisine'
+  rating = 4.5
+  delivery = False
