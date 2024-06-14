@@ -1,0 +1,13 @@
+class Restaurant:
+  name = 'What the Pho'
+  category = 'Vietnamese Cuisine'
+  rating = 4.5
+  delivery = False
+
+bobs_burgers = Restaurant()
+bobs_burgers.name = 'Bob\'s Burgers'
+bobs_burgers.category = 'American Diner'
+bobs_burgers.rating = 4.7
+bobs_burgers.delivery = False
+
+print(vars(bobs_burgers))
